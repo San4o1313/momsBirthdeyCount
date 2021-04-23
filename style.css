@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    font-family:  'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 3rem;
+    background-image: url(./heppy.jpg);
+    /* background-position: center center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+
+h1 {
+    text-shadow: rgb(190, 182, 57) 5px 0 10px;
+    color: azure;
+    font-size: 10vw;
+}
+
+#date-cont {
+    margin-top: 10rem;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    line-height: 1rem;
+}
+
+#date-cont .date{
+    text-shadow: rgb(29, 23, 1) 0 0 10px;
+    margin-top: 10vw;
+    font-size: 10vw;
+}
+
+#date-cont span {
+    margin: 4vw;
+    font-size: small;
+    /* margin: auto; */
+}
+
+.yl {
+    color: rgb(224, 224, 89);
+}
+.gr {
+    color: rgb(39, 124, 39);
+}
+
+.rd {
+    color: rgb(199, 53, 53);
+}
+
+.bl {
+    color: rgb(98, 98, 196);
+}
