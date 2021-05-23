@@ -3,7 +3,10 @@ let hoursId = document.getElementById("hours");
 let minetsId = document.getElementById("minets");	
 let secondsId = document.getElementById("seconds");	
 
-let targetDate = new Date(`20 may ${new Date().getFullYear()}` )
+let targetDate = new Date(`20 may ${new Date().getFullYear()}` );
+if (new Date() > targetDate) {
+	targetDate = new Date(`20 may ${new Date().getFullYear()+1}` );
+}
 
 
 function tic() {
