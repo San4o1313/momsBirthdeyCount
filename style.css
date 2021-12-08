@@ -1,32 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600&display=swap');
-
 * {
     box-sizing: border-box;
 }
 
 body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 100vh;
     background-color: beige;
     font-family:  'Nunito Sans', sans-serif;
     margin: 0;
-    padding: 0;
     font-weight: bold;
     font-size: 3rem;
-    background-image: url(./heppy.jpg);
-    /* background-position: center center; */
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
+    background: url(./heppy.jpg) center center/cover no-repeat  #000;
+    /* background-size: auto; */
+    overflow: hidden;
     
 }
 
 h1 {
-    text-shadow: rgb(190, 182, 57) 5px 0 10px;
+    line-height: 1.5;
+    font-style: italic;
+    font-family: inherit;
+    text-shadow: rgb(190, 182, 57) 0.3rem 0 .3rem;
     color: azure;
-    font-size: 10vw;
+    margin: 0;
+    font-size: 7vw;
 }
 
 #date-cont {
-    margin-top: 10rem;
     color: azure;
     display: flex;
     justify-content: center;
@@ -36,13 +41,12 @@ h1 {
 #date-cont .date{
     text-shadow: rgb(29, 23, 1) 0 0 10px;
     margin-top: 10vw;
-    font-size: 10vw;
+    font-size: 8vw;
 }
 
 #date-cont span {
     margin: 4vw;
     font-size: small;
-    /* margin: auto; */
 }
 
 .yl {
@@ -58,4 +62,10 @@ h1 {
 
 .bl {
     color: rgb(98, 98, 196);
+}
+
+@media (min-width: 756px) {
+    .hide {
+        visibility: hidden;
+    }
 }
